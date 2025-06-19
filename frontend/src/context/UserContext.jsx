@@ -6,7 +6,7 @@ export const userDataContext = createContext();
 
 function UserContext({ children }) {
 
-  const url = import.meta.env.VITE_BASE_URL;
+  const url = "https://virtumate-backend.onrender.com";
 
   const [userData, setUserData] = useState(null);
 
