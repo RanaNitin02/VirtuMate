@@ -6,7 +6,7 @@ export const userDataContext = createContext();
 
 function UserContext({ children }) {
 
-  const url = "https://virtumate-backend.onrender.com";
+  const url = "https://virtumate-backend.onrender.com/api/v1";
 
   const [userData, setUserData] = useState(null);
 
