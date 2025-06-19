@@ -14,7 +14,7 @@ const port = process.env.PORT || 5000;
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors({
-    origin: "https://virtumate.onrender.com";
+    origin: "https://virtumate.onrender.com",
     credentials: true,
 }));
 
